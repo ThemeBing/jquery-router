@@ -10,7 +10,7 @@
     }
 
     $(window).on('hashchange', function() {
-    	loadContent(loacation.hash.slice(1));
+    	loadContent(location.hash.slice(1));
     });
 
     var url = window.location.href;
